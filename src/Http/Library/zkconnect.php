@@ -1,6 +1,7 @@
 <?php
 function zkconnect($self)
 {
+    $self->_section = __METHOD__;
     $command = 1000;
     $command_string = '';
     $chksum = 0;
