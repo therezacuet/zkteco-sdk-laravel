@@ -1,7 +1,7 @@
 <?php
 
 namespace KwikKoders\Zkteco\Http\Library;
-require "./zklib.php";
+use KwikKoders\Zkteco\Http\Library\ZKLib;
 
 class ZktecoLib
 {
