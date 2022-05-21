@@ -1,12 +1,11 @@
 <?php
 function zkconnect($self)
 {
-    $self->_section = __METHOD__;
-    $command = 1000;
+    $command = CMD_CONNECT;
     $command_string = '';
     $chksum = 0;
     $session_id = 0;
-    $reply_id = -1 + 65535;
+    $reply_id = -1 + USHRT_MAX;
 
     $buf = $self->createHeader($command, $chksum, $session_id, $reply_id, $command_string);
 
