@@ -11,7 +11,7 @@ class ZKLib
     public $session_id = 0;
     public $userdata = array();
     public $attendancedata = array();
-    public $timeout_sec = 60; //5
+    public $timeout_sec = 1; //5
     public $timeout_usec = 5000000;
     public function __construct($ip, $port)
     {
