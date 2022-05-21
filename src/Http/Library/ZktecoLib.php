@@ -1,7 +1,7 @@
 <?php
 
 namespace Laradevsbd\Zkteco\Http\Library;
-
+require "./zklib.php";
 
 class ZktecoLib
 {
@@ -9,7 +9,7 @@ class ZktecoLib
 
     public function __construct($ip,$port=4370)
     {
-        $this->zk = new \Nurkarim\Zkteco\Http\Library\ZKLib($ip, $port);
+        $this->zk = new ZKLib($ip, $port);
         $ret = $this->zk->connect();
     }
 
