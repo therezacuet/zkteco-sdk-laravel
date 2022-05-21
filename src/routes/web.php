@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace'=>'thereza\Zkteco\Http\Controllers'],function (){
+Route::group(['namespace'=>'KwikKoders\Zkteco\Http\Controllers'],function (){
     Route::get('zkteco','ZktecoController@index');
 });
 

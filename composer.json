@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "thereza\\Zkteco\\": "src/"
+            "KwikKoders\\Zkteco\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "thereza\\Zkteco\\ZktecoServiceProvider"
+                "KwikKoders\\Zkteco\\ZktecoServiceProvider"
             ]
         }
     }

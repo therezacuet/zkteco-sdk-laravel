@@ -1,6 +1,6 @@
 <?php
 
-namespace thereza\Zkteco\Http\Library;
+namespace KwikKoders\Zkteco\Http\Library;
 require "./zklib.php";
 
 class ZktecoLib

@@ -1,5 +1,5 @@
 <?php
-namespace thereza\Zkteco\Http\Library;
+namespace KwikKoders\Zkteco\Http\Library;
 
 class ZKLib
 {

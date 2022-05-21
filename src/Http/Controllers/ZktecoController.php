@@ -1,10 +1,10 @@
 <?php
 
-namespace thereza\Zkteco\Http\Controllers;
+namespace KwikKoders\Zkteco\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use thereza\Zkteco\Http\Library\ZktecoLib;
+use KwikKoders\Zkteco\Http\Library\ZktecoLib;
 
 class ZktecoController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace thereza\Zkteco;
+namespace KwikKoders\Zkteco;
 
 use Illuminate\Support\ServiceProvider;
 
