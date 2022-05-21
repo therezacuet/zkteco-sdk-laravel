@@ -22,8 +22,8 @@ class ZKLib
         //$this->setTimeout($this->timeout_sec, $this->timeout_usec);
         socket_set_option($this->zkclient, SOL_SOCKET, SO_RCVTIMEO, $timeout);
 
-        // include_once("zkconst.php");
-        // include_once("zkconnect.php");
+        include_once("zkconst.php");
+        include_once("zkconnect.php");
         // include_once("zkversion.php");
         // include_once("zkos.php");
         // include_once("zkplatform.php");
