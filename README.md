@@ -1,7 +1,3 @@
-[![Issues](https://img.shields.io/github/issues/laradevsbd/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/issues)
-[![Stars](https://img.shields.io/github/stars/laradevsbd/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/stargazers)
-[![Forks](https://img.shields.io/github/forks/laradevsbd/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/network/members)
-
 ## Zkteco Laravel SDK ##
 This package easy to use functions to ZKTeco Device activities with **laravel** framework. 
 
