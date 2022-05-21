@@ -19,8 +19,8 @@ class ZKLib
         $this->port = $port;
         $this->zkclient = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
         $timeout = array('sec' => 1, 'usec' => 500000);
-        //$this->setTimeout($this->timeout_sec, $this->timeout_usec);
-        socket_set_option($this->zkclient, SOL_SOCKET, SO_RCVTIMEO, $timeout);
+        $this->setTimeout($this->timeout_sec, $this->timeout_usec);
+        //socket_set_option($this->zkclient, SOL_SOCKET, SO_RCVTIMEO, $timeout);
 
         include_once("zkconst.php");
         include_once("zkconnect.php");
@@ -122,12 +122,12 @@ class ZKLib
 
     public function setTimeout($sec = 0, $usec = 0)
     {
-        if ($sec != 0) {
-            $this->timeout_sec = $sec;
-        }
-        if ($usec != 0) {
-            $this->timeout_usec = $usec;
-        }
+        // if ($sec != 0) {
+        //     $this->timeout_sec = $sec;
+        // }
+        // if ($usec != 0) {
+        //     $this->timeout_usec = $usec;
+        // }
         $timeout = array('sec' => $this->timeout_sec, 'usec' => $this->timeout_usec);
         socket_set_option($this->zkclient, SOL_SOCKET, SO_RCVTIMEO, $timeout);
     }
