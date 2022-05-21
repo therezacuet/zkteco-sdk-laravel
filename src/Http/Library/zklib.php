@@ -19,23 +19,23 @@ class ZKLib
         $this->port = $port;
         $this->zkclient = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
         $timeout = array('sec' => 60, 'usec' => 500000);
-        //$this->setTimeout($this->timeout_sec, $this->timeout_usec);
-        socket_set_option($this->zkclient, SOL_SOCKET, SO_RCVTIMEO, $timeout);
+        $this->setTimeout($this->timeout_sec, $this->timeout_usec);
+        //socket_set_option($this->zkclient, SOL_SOCKET, SO_RCVTIMEO, $timeout);
 
         include_once("zkconst.php");
         include_once("zkconnect.php");
-        // include_once("zkversion.php");
-        // include_once("zkos.php");
-        // include_once("zkplatform.php");
-        // include_once("zkworkcode.php");
-        // include_once("zkssr.php");
-        // include_once("zkpin.php");
-        // include_once("zkface.php");
-        // include_once("zkserialnumber.php");
-        // include_once("zkdevice.php");
-        // include_once("zkuser.php");
-        // include_once("zkattendance.php");
-        // include_once("zktime.php");
+        include_once("zkversion.php");
+        include_once("zkos.php");
+        include_once("zkplatform.php");
+        include_once("zkworkcode.php");
+        include_once("zkssr.php");
+        include_once("zkpin.php");
+        include_once("zkface.php");
+        include_once("zkserialnumber.php");
+        include_once("zkdevice.php");
+        include_once("zkuser.php");
+        include_once("zkattendance.php");
+        include_once("zktime.php");
     }
 
 
