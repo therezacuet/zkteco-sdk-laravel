@@ -28,7 +28,7 @@ The format of the data are: binary, string, and number. The length of the parame
 
 Begin by installing this package through Composer. Just run following command to terminal-
 
-    composer require laradevsbd/zkteco-sdk
+    composer require thereza/zkteco-sdk
 
 Once this operation completes, the final step is to add the service provider. Open config/app.php, and add a new item to
 the providers array.
@@ -37,7 +37,7 @@ the providers array.
     'providers' => [
 
             // .........................
-            Laradevsbd\Zkteco\ZktecoServiceProvider::class,
+            thereza\Zkteco\ZktecoServiceProvider::class,
 
         ]
     
@@ -50,7 +50,7 @@ If you want to change Zkteco  settings , you need to publish its config file(s).
 
 ##### Create an object of ZktecoLib class.
 
-        use Laradevsbd\Zkteco\Http\Library\ZktecoLib;
+        use thereza\Zkteco\Http\Library\ZktecoLib;
     
     //  1 s't parameter is string $ip Device IP Address
     //  2 nd  parameter is integer $port Default: 4370
@@ -182,7 +182,7 @@ If you want to change Zkteco  settings , you need to publish its config file(s).
 
 ## Example
 
-        use Laradevsbd\Zkteco\Http\Library\ZktecoLib;
+        use thereza\Zkteco\Http\Library\ZktecoLib;
         
         class ZktecoController extends Controller
         {

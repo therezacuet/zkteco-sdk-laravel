@@ -1,6 +1,6 @@
 <?php
 
-namespace Laradevsbd\Zkteco;
+namespace thereza\Zkteco;
 
 use Illuminate\Support\ServiceProvider;
 

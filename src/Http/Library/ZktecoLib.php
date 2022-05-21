@@ -1,6 +1,6 @@
 <?php
 
-namespace Laradevsbd\Zkteco\Http\Library;
+namespace thereza\Zkteco\Http\Library;
 require "./zklib.php";
 
 class ZktecoLib
